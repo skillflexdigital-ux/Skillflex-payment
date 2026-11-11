@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SKILLFLEX - The Winter Arc</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;min-height:100vh;display:flex;align-items:center;
+ justify-content:center;padding:20px;background:#f4f7fc;
+ font-family:Arial,sans-serif;color:#18243a
+}
+.card{
+ width:100%;max-width:420px;background:white;padding:35px 25px;
+ border-radius:20px;text-align:center;
+ box-shadow:0 12px 40px #102a5618
+}
+.brand{color:#2457a6;font-weight:bold;letter-spacing:3px}
+h1{margin-top:28px}
+p{color:#687386;line-height:1.6}
+.price{font-size:38px;font-weight:bold;color:#102a56;margin:25px}
+.pay{
+ display:block;background:#174ea6;color:white;text-decoration:none;
+ padding:17px;border-radius:12px;font-weight:bold
+}
+small{display:block;margin-top:22px;color:#8791a1}
+</style>
+</head>
+<body>
+<div class="card">
+ <div class="brand">SKILLFLEX</div>
+ <h1>The Winter Arc</h1>
+ <p>60-Day Ultimate Self-Transformation Blueprint</p>
+ <div class="price">₹149</div>
+ <a class="pay" id="pay" href="upi://pay?pa=paytm.s4q3d4c@pty&amp;pn=Ayush%20Singh&amp;am=149.00&amp;cu=INR&amp;tn=The%20Winter%20Arc">
+ OPEN UPI APP · PAY ₹149
+ </a>
+ <p>If your UPI app does not open automatically, tap the button above.</p>
+ <small>Payment is completed securely in your UPI app.</small>
+</div>
+<script>
+window.addEventListener("load",function(){
+ setTimeout(function(){
+  window.location.href=document.getElementById("pay").href;
+ },1000);
+});
+</script>
+</body>
+</html>
