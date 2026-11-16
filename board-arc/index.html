@@ -1,0 +1,333 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080d20">
+<title>THE BOARD ARC | 90-Day Study Planner</title>
+<meta name="description" content="THE BOARD ARC — A 90-Day Study Planner for CBSE Class 10 Board Exams 2027. Get your complete study planning workbook for just ₹99.">
+
+<style>
+:root {
+  --bg:#080d20;
+  --panel:#101a35;
+  --blue:#3985ff;
+  --purple:#8757ff;
+  --white:#f7f9ff;
+  --muted:#aab5d0;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:var(--bg);
+  color:var(--white);
+  line-height:1.65;
+}
+a{text-decoration:none;color:inherit}
+.container{width:min(1100px,90%);margin:auto}
+nav{
+  padding:20px 0;
+  border-bottom:1px solid #ffffff14;
+}
+.nav-inner{display:flex;justify-content:space-between;align-items:center;gap:15px}
+.logo{font-size:22px;font-weight:900;letter-spacing:2px}
+.logo span{color:#5796ff}
+.nav-tag{color:var(--muted);font-size:12px}
+.hero{
+  padding:85px 0 75px;
+  text-align:center;
+  background:radial-gradient(ellipse at 50% 0%,#263d79 0%,#111a39 38%,#080d20 75%);
+}
+.eyebrow{
+  display:inline-block;
+  padding:7px 15px;
+  border:1px solid #659bff66;
+  border-radius:30px;
+  color:#9fc1ff;
+  font-size:12px;
+  letter-spacing:1.5px;
+  margin-bottom:22px;
+}
+h1{font-size:clamp(42px,8vw,78px);line-height:1.05;letter-spacing:2px}
+.gradient{
+  background:linear-gradient(90deg,#68aaff,#a58aff);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+.subtitle{font-size:clamp(19px,3vw,26px);margin:18px 0;color:#dce5ff}
+.hero p{max-width:650px;margin:0 auto 25px;color:var(--muted)}
+.price{font-size:42px;font-weight:900;margin:20px 0 5px}
+.price small{font-size:17px;color:var(--muted);font-weight:400;text-decoration:line-through}
+.price-note{font-size:13px;color:#aebde0;margin-bottom:25px}
+.btn{
+  display:inline-block;
+  padding:15px 27px;
+  border-radius:10px;
+  font-weight:800;
+  letter-spacing:.5px;
+  transition:.2s;
+}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.1)}
+.primary{background:linear-gradient(100deg,var(--blue),var(--purple));color:white;box-shadow:0 8px 30px #397fff44}
+.secondary{border:1px solid #668cff;color:#c7d8ff}
+section{padding:70px 0}
+.section-title{text-align:center;font-size:clamp(27px,5vw,40px);margin-bottom:12px}
+.section-sub{text-align:center;color:var(--muted);max-width:680px;margin:0 auto 35px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{
+  background:linear-gradient(145deg,#152344,#0e1730);
+  border:1px solid #ffffff13;
+  border-radius:16px;
+  padding:24px;
+}
+.card .emoji{font-size:27px;margin-bottom:12px}
+.card h3{font-size:17px;margin-bottom:8px}
+.card p{color:var(--muted);font-size:14px}
+.features{background:#0b1229}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.step-number{font-size:30px;font-weight:900;color:#70a5ff;margin-bottom:8px}
+.audience{
+  max-width:760px;margin:auto;
+  background:linear-gradient(120deg,#14264a,#17183e);
+  border:1px solid #668cff44;
+  border-radius:18px;padding:30px;
+}
+.audience li{list-style:none;margin:12px 0;color:#d4def5}
+.audience li:before{content:"✓";color:#73aaff;font-weight:bold;margin-right:12px}
+.buy-section{text-align:center;background:radial-gradient(ellipse at center,#202b59,#080d20 70%)}
+.buy-box{
+  max-width:650px;margin:auto;padding:38px 25px;
+  border:1px solid #668cff66;border-radius:22px;
+  background:#111b37;
+}
+.buy-box .price{font-size:54px}
+.faq{max-width:780px;margin:auto}
+details{
+  background:#111b35;border:1px solid #ffffff17;
+  border-radius:12px;padding:17px 20px;margin:12px 0;
+}
+summary{cursor:pointer;font-weight:bold}
+details p{color:var(--muted);font-size:14px;margin-top:12px}
+.disclaimer{
+  max-width:850px;margin:30px auto 0;
+  color:#8795b4;font-size:12px;text-align:center;
+}
+footer{padding:30px 0;text-align:center;border-top:1px solid #ffffff15;color:var(--muted);font-size:13px}
+footer a{color:#8db7ff}
+@media(max-width:750px){
+  .grid,.steps{grid-template-columns:1fr}
+  .hero{padding:65px 0 55px}
+  section{padding:55px 0}
+  .nav-tag{font-size:10px}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="container nav-inner">
+    <div class="logo">SKILL<span>FLEX</span></div>
+    <div class="nav-tag">LEARN · IMPROVE · TRANSFORM</div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <div class="eyebrow">CBSE CLASS 10 • BOARD EXAMS 2027</div>
+    <h1>THE <span class="gradient">BOARD ARC</span></h1>
+    <div class="subtitle">90-Day Study Planner</div>
+    <p>
+      Stop studying randomly. Start preparing with a clear plan.
+      Organise your subjects, track your progress and build a consistent
+      study routine with one complete digital workbook.
+    </p>
+    <div class="price">₹99 <small>₹199</small></div>
+    <div class="price-note">One-time payment • Digital PDF Workbook</div>
+    <a class="btn primary" href="#buy">GET YOUR BOARD ARC →</a>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Your Preparation Needs a <span class="gradient">System.</span></h2>
+    <p class="section-sub">
+      A practical planning workbook designed to help you organise your
+      CBSE Class 10 preparation without losing track of what matters.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <div class="emoji">📚</div>
+        <h3>Too Much Syllabus?</h3>
+        <p>Break your preparation into manageable study targets and follow a structured roadmap.</p>
+      </div>
+      <div class="card">
+        <div class="emoji">⏳</div>
+        <h3>No Consistent Routine?</h3>
+        <p>Plan your school days, study sessions and weekly priorities in one place.</p>
+      </div>
+      <div class="card">
+        <div class="emoji">🎯</div>
+        <h3>Revision Confusion?</h3>
+        <p>Keep track of revision, practice tests, mistakes and pending chapters.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <div class="container">
+    <h2 class="section-title">Everything You Need. <span class="gradient">One Workbook.</span></h2>
+    <p class="section-sub">A complete planning toolkit to bring structure to your board exam preparation.</p>
+    <div class="grid">
+      <div class="card">
+        <div class="emoji">🗺️</div>
+        <h3>90-Day Roadmap</h3>
+        <p>Organise your journey into Learn, Practice, Revise and Mock-test stages.</p>
+      </div>
+      <div class="card">
+        <div class="emoji">📅</div>
+        <h3>Daily & Weekly Planners</h3>
+        <p>Plan your school-day routine, weekly goals and study priorities.</p>
+      </div>
+      <div class="card">
+        <div class="emoji">📖</div>
+        <h3>5 Subject Trackers</h3>
+        <p>Dedicated planning and progress tracking for Maths, Science, SST, English and Hindi.</p>
+      </div>
+      <div class="card">
+        <div class="emoji">🔁</div>
+        <h3>Revision Planner</h3>
+        <p>Track chapter revisions and identify topics that need more attention.</p>
+      </div>
+      <div class="card">
+        <div class="emoji">📝</div>
+        <h3>Mock Test Tracker</h3>
+        <p>Record test performance, review mistakes and monitor your progress.</p>
+      </div>
+      <div class="card">
+        <div class="emoji">⚡</div>
+        <h3>XP, Levels & Milestones</h3>
+        <p>Make preparation more engaging with progress milestones and achievement tracking.</p>
+      </div>
+      <div class="card">
+        <div class="emoji">❌</div>
+        <h3>Mistake Log</h3>
+        <p>Record recurring errors and keep track of what you need to improve.</p>
+      </div>
+      <div class="card">
+        <div class="emoji">🗺️</div>
+        <h3>Map Checklist</h3>
+        <p>Keep your map-work practice organised with a dedicated checklist.</p>
+      </div>
+      <div class="card">
+        <div class="emoji">🚀</div>
+        <h3>Late-Start Plans</h3>
+        <p>Use structured planning pages to get back on track when you fall behind.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">How It <span class="gradient">Works</span></h2>
+    <p class="section-sub">Get started in three simple steps.</p>
+    <div class="steps">
+      <div class="card">
+        <div class="step-number">01</div>
+        <h3>Make Your Payment</h3>
+        <p>Pay ₹99 using your preferred UPI app.</p>
+      </div>
+      <div class="card">
+        <div class="step-number">02</div>
+        <h3>Submit Your Details</h3>
+        <p>Fill out the order form and upload your payment screenshot.</p>
+      </div>
+      <div class="card">
+        <div class="step-number">03</div>
+        <h3>Receive Your Workbook</h3>
+        <p>After payment verification, your PDF will be sent to your email.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Who Is It <span class="gradient">For?</span></h2>
+    <p class="section-sub">Made for students who want a more organised approach to board preparation.</p>
+    <div class="audience">
+      <ul>
+        <li>CBSE Class 10 students preparing for Board Exams 2027.</li>
+        <li>Students who want to organise all five subjects.</li>
+        <li>Students who struggle to maintain a consistent study routine.</li>
+        <li>Students who want to track revision, tests and mistakes.</li>
+        <li>Students who want a structured 90-day preparation framework.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="buy-section" id="buy">
+  <div class="container">
+    <div class="buy-box">
+      <div class="eyebrow">YOUR BOARD PREPARATION STARTS HERE</div>
+      <h2 class="section-title">GET THE <span class="gradient">BOARD ARC</span></h2>
+      <p style="color:var(--muted)">90-Day Study Planner • Digital PDF</p>
+      <div class="price">₹99</div>
+      <p style="color:var(--muted);font-size:13px;margin-bottom:25px">One-time payment. No subscription.</p>
+      <a class="btn primary" href="upi://pay?pa=paytm.s4q3d4c@pty&amp;pn=Ayush%20Singh&amp;am=99.00&amp;cu=INR&amp;tn=The%20Board%20Arc">PAY ₹99 NOW →</a>
+      <p style="font-size:12px;color:var(--muted);margin-top:18px">After payment, return here and submit your details.</p>
+      <a class="btn secondary" style="margin-top:14px" href="https://forms.gle/Gwq1P87MTHtz22tQ7" target="_blank" rel="noopener">SUBMIT PAYMENT DETAILS</a>
+    </div>
+    <p class="disclaimer">
+      Important: Your order is processed manually. Please submit the payment
+      screenshot and correct email address through the form. Your payment will
+      be verified before the PDF is delivered by email. Delivery is not automatic.
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Frequently Asked <span class="gradient">Questions</span></h2>
+    <div class="faq">
+      <details>
+        <summary>What will I receive after purchasing?</summary>
+        <p>You will receive THE BOARD ARC, a digital PDF study planner and tracker for CBSE Class 10 preparation.</p>
+      </details>
+      <details>
+        <summary>How much does it cost?</summary>
+        <p>The one-time price is ₹99. There is no subscription.</p>
+      </details>
+      <details>
+        <summary>How will I receive the PDF?</summary>
+        <p>After payment, submit the Google Form with your details and payment screenshot. Once the payment is verified, the PDF will be emailed to you.</p>
+      </details>
+      <details>
+        <summary>Will I receive it instantly?</summary>
+        <p>No. Orders are manually verified and the PDF is sent by email after verification.</p>
+      </details>
+      <details>
+        <summary>Is this an official CBSE product?</summary>
+        <p>No. THE BOARD ARC is an independent student planning resource and is not affiliated with or endorsed by CBSE.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div style="font-size:20px;font-weight:900;letter-spacing:2px;margin-bottom:8px">SKILL<span style="color:#5796ff">FLEX</span></div>
+    <p>Learn · Improve · Transform</p>
+    <p style="margin-top:12px">Support: <a href="mailto:skillflexdigital@gmail.com">skillflexdigital@gmail.com</a></p>
+    <p style="margin-top:15px">© 2026 SKILLFLEX. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
